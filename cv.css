@@ -1,1 +1,29 @@
- 
+.Titre
+{
+	text-align: center;
+}
+
+h1
+{
+	color: grey;
+}
+
+a
+{
+	color: black;
+	text-decoration: none;
+
+}
+
+a:hover
+{
+	color: red;
+	text-decoration: underline;
+}
+
+.image
+{
+    background-attachment: fixed; /* Le fond restera fixe */
+    background-repeat: no-repeat; /* Le fond ne sera pas répété */
+    background-position: top left; /* Le fond sera placé en haut à droite */
+}
