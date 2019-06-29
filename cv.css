@@ -8,12 +8,11 @@ h1
 	color: grey;
 }
 
-a
+h2
 {
-	color: black;
-	text-decoration: none;
-
+	color: grey;
 }
+
 
 a:hover
 {
@@ -23,7 +22,27 @@ a:hover
 
 .image
 {
-    background-attachment: fixed; /* Le fond restera fixe */
-    background-repeat: no-repeat; /* Le fond ne sera pas répété */
-    background-position: top left; /* Le fond sera placé en haut à droite */
+	float: left;
+}
+
+.nom
+{
+	clear: both;
+}
+
+.Git
+{
+	padding-bottom: 30px;
+}
+
+li
+{
+	width: 30%;
+	min-width: 300px
+}
+
+
+body
+{
+	margin-left: 50px;
 }
